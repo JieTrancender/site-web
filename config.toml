@@ -1,6 +1,6 @@
 baseURL = "https://www.keyboard-man.com"
 languageCode = "zh-CN"
-title = "keyboard-man.com"
+title = "JieTrancender"
 theme = "maupassant"
 googleAnalytics = ""  # UA-XXXXXXXX-X
 
@@ -25,6 +25,7 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   busuanzi = true #启用不算子网页统计
   googleAd = ""  #ca-pub-xxxxxxxxxxxxxx
   localSearch = true # 启用本地搜索
+  beian = "蜀ICP备15030708号"
 
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
   customCSS = ['douban.css', 'other.css']

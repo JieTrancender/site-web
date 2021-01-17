@@ -22,5 +22,5 @@ jobs:
 
       - name: Release
         run: |
-          mv public /data/site/keyboard-man-com
+          mv -f public /data/site/keyboard-man-com
 

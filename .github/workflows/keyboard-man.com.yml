@@ -1,0 +1,26 @@
+name: hugo
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Build
+        run: /usr/local/hugo/hugo --minify
+
+      - name: Release
+        run: |
+          rsync -avzP public/* /data/site/keyboard-man-com
+

@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Build
-        run: hugo --minify
+        run: /usr/local/hugo/hugo --minify
 
       - name: Release
         run: |

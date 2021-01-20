@@ -12,7 +12,7 @@ disablePathToLower = true
 hasCJKLanguage = true
 summaryLength = 140
 
-disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
+# disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
 
 [author]
   name = "JieTrancender"
@@ -52,8 +52,8 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
   enable = true
-  repo = "git@github.com:JieTrancender/site-web.git" ##换成自己得
-  issueTerm = "https://github.com/JieTrancender/site-web/issues/1"
+  repo = "git@github.com:JieTrancender/site-web-utteranc.git" ##换成自己得
+  issueTerm = "site-web"
   theme = "github-light"
 
 ## 开启版权声明，协议名字和链接都可以换

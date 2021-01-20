@@ -1,10 +1,11 @@
-+++
-title = "keyboard-man.com"
-tags = ["site"]
-categories=["site"]
-date = "2021-01-14T23:21:07+08:00"
-doc = false
-+++
+---
+title: "keyboard-man.com"
+date: "2021-01-14T23:21:07+08:00"
+tags: ["site"]
+categories: ["site"]
+toc: false
+draft: false
+---
 
 
 Welcome to here.

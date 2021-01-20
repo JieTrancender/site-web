@@ -12,7 +12,7 @@ disablePathToLower = true
 hasCJKLanguage = true
 summaryLength = 140
 
-# disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
+disqusShortname = "site-web"  ## 是否开启disqus评论，不要和utteranc同时开启
 
 [author]
   name = "JieTrancender"

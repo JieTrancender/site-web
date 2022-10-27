@@ -63,7 +63,7 @@ skynet.start(function()
 end
 ~~~
 
-最终的输出结果可能不是预期中的**1**而是**1**，这就是因为`sharetable.query`函数中调用了skynet.call挂起协程让出执行导致的伪并发。
+最终的输出结果可能不是预期中的**100**而是**1**，这就是因为`sharetable.query`函数中调用了skynet.call挂起协程让出执行导致的伪并发。
 ~~~
 /game-server # ./skynet/skynet examples/config.testpseudoconcurrent.lua 
 [:00000002] LAUNCH snlua bootstrap
